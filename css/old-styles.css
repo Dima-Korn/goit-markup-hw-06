@@ -110,105 +110,7 @@
   color: #404bbf;
 }
 
-/* Portfolio Section */
-
-.product-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-.portfolio-list-item:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-list-item:hover .app-descr-text {
-  transform: translateY(0%);
-}
-
-.app-image-box {
-  position: relative;
-  overflow: hidden;
-}
-
-.app-descr-text {
-  position: absolute;
-  top: 0;
-  color: #f4f4fd;
-  background-color: #4d5ae5;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-  padding: 40px 32px;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.product-text-box {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
-.product-name {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.product-type {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #434455;
-}
-
 /* Footer */
-
-.foot-style {
-  background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.footer-box {
-  display: flex;
-  align-items: baseline;
-}
-
-.logo-text-box {
-  margin-right: 120px;
-}
-
-.footer-logo {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.logo-footer-text {
-  color: #f4f4fd;
-}
 
 .foot-par-text {
   font-size: 16px;
@@ -231,25 +133,6 @@
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-}
-
-.foot-socials-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-}
-
-.social-media .socials-item-link:hover {
-  background-color: #31d0aa;
-}
-
-.social-media .socials-item-link:focus {
-  background-color: #31d0aa;
-}
-
-.social-media .socials-item-link:active {
-  background-color: #31d0aa;
 }
 
 /* Footer form */
@@ -299,29 +182,7 @@
   font-size: 12px;
   line-height: 2; /* 200% */
   letter-spacing: 0.04em;
-}
-
-.subscr-button {
-  text-align: center;
-  /* Button Text */
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-  color: #fff;
-  display: flex;
-  min-width: 165px;
-  background-color: #4d5ae5;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 24px 8px 24px;
-  border-radius: 4px;
-  border-style: none;
-  cursor: pointer;
-}
-
-.subscr-icon {
-  fill: #fff;
-  margin-left: 16px;
+  opacity: 0.6;
 }
 
 /** Modal Window **/

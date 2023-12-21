@@ -309,6 +309,7 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  margin-left: 12px;
 }
 
 .team-card-text-content {
@@ -364,6 +365,9 @@ body {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 72px;
+  }
+  .team-card {
+    margin-left: 0;
   }
 }
 
@@ -458,5 +462,112 @@ body {
 
   .portfolio-list-item {
     flex-basis: calc((100% - 48px) / 3);
+  }
+}
+
+/* Footer */
+
+.foot-style {
+  background-color: #2e2f42;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-footer-text {
+  color: #f4f4fd;
+}
+
+.foot-socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-media .socials-item-link:hover {
+  background-color: #31d0aa;
+}
+
+.social-media .socials-item-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-media .socials-item-link:active {
+  background-color: #31d0aa;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-text-box,
+  .social-media {
+    width: 50%;
+  }
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 12px;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+}
+
+.subscr-button {
+  text-align: center;
+  /* Button Text */
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: flex;
+  min-width: 165px;
+  background-color: #4d5ae5;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 24px 8px 24px;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.subscr-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 1158px) {
+  .foot-style {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-box {
+    flex-direction: unset;
+    align-items: baseline;
+  }
+
+  .logo-text-box {
+    margin-right: 120px;
+  }
+
+  ::placeholder {
+    opacity: 1;
   }
 }
