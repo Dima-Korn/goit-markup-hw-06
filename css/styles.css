@@ -476,6 +476,13 @@ body {
 .footer-box {
   display: flex;
   flex-direction: column;
+  gap: 72px;
+}
+
+.logo-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-logo {
@@ -495,11 +502,27 @@ body {
   color: #f4f4fd;
 }
 
+.foot-par-text {
+  color: #f4f4fd;
+  font-weight: 400;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
 .foot-socials-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+.foot-social-par {
+  color: #ffffff;
 }
 
 .social-media .socials-item-link:hover {
@@ -514,11 +537,37 @@ body {
   background-color: #31d0aa;
 }
 
-@media screen and (min-width: 768px) {
-  .logo-text-box,
-  .social-media {
-    width: 50%;
-  }
+.subscr-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.subscr-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.subscr-form-label {
+  display: flex;
+}
+
+.subscr-form-input {
+  width: 288px;
+  height: 40px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  opacity: 0.3;
 }
 
 ::placeholder {
@@ -537,7 +586,7 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   display: flex;
-  min-width: 165px;
+  width: 165px;
   background-color: #4d5ae5;
   align-items: center;
   justify-content: center;
@@ -550,6 +599,38 @@ body {
 .subscr-icon {
   fill: #fff;
   margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    padding-left: 108px;
+  }
+
+  .logo-text-box {
+    width: 264px;
+    align-items: flex-start;
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+  .social-media {
+    width: 208px;
+    align-items: flex-start;
+  }
+
+  .subscr-box {
+    align-items: baseline;
+  }
+
+  .subscr-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .subscr-form-input {
+    width: 264px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -565,6 +646,10 @@ body {
 
   .logo-text-box {
     margin-right: 120px;
+  }
+
+  .subscr-form-input {
+    opacity: 1;
   }
 
   ::placeholder {
