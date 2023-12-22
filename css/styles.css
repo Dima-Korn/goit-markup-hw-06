@@ -640,12 +640,16 @@ body {
   }
 
   .footer-box {
-    flex-direction: unset;
-    align-items: baseline;
+    flex-wrap: nowrap;
+    padding-left: 0;
   }
 
   .logo-text-box {
     margin-right: 120px;
+  }
+
+  .social-media {
+    margin-right: 80px;
   }
 
   .subscr-form-input {

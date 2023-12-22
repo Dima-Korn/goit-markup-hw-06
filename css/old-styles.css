@@ -110,44 +110,6 @@
   color: #404bbf;
 }
 
-/* Footer */
-
-.social-media {
-  margin-right: 80px;
-}
-
-.foot-social-par {
-  margin-bottom: 16px;
-}
-
-/* Footer form */
-
-.subscr-box {
-  width: 453px;
-  height: 80px;
-  border-radius: 4px;
-  border-style: none;
-}
-
-.subscr-form {
-  display: flex;
-  gap: 24px;
-}
-
-.subscr-form-label {
-  display: flex;
-}
-
-.subscr-form-input {
-  width: 264px;
-
-  padding-left: 16px;
-}
-
-::placeholder {
-  opacity: 0.6;
-}
-
 /** Modal Window **/
 
 .modal-container {
