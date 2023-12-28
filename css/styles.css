@@ -183,7 +183,7 @@ body {
 }
 
  .mobile-menu-box {
-  width: 320px;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   top: 50%;
